@@ -51,6 +51,7 @@ nav ul {
 }
 nav li {
   list-style: none;
+  transition: filter 0.2s ease-in-out;
 }
 nav a {
   color: #812d07;
@@ -59,7 +60,6 @@ nav a {
   border-radius: 5rem;
   padding: calc(0.1rem + 1.2vw);
   text-align: center;
-  transition: filter 0.2s ease-in-out;
 }
 nav li:nth-child(3) a {
   font-size: calc(1rem + 1vw);
